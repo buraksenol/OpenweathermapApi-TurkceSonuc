@@ -2,9 +2,8 @@ import requests
 import json
 
 def havaDurumu(self):
-    city = self
+    sehir = self
     apiKey = 'YOUR_API_KEY'
-    #response = requests.get(f'http://api.openweathermap.org/data/2.5/weather?id={city}&appid={apiKey}')
     response = requests.get(f'http://api.openweathermap.org/data/2.5/weather?q={city}&appid={apiKey}')
 
     weatherData = response.json()
@@ -43,5 +42,5 @@ def havaDurumu(self):
 
 if __name__ == "__main__":
 
-    cityID = "İstanbul"
-    print(havaDurumu(cityID))
+    sehirİsmi = "İstanbul"
+    print(havaDurumu(sehirİsmi))
