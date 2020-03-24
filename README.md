@@ -1,4 +1,7 @@
-# OpenweathermapApi-TurkceSonuc
+# [FLASK]OpenweathermapApi-TurkceSonuc
+
+Flask kullanarak oluşturulan web uygulaması eklendi: (Şehir ismine göre api üzerinde sonuç döndürüyor.)
+
 Python ile yazdığım bu fonksiyonla "Openweathermap Api" si kullanarak alınan sonuçları "Türkçeye" ve "Celcius" derece ye çeviriyoruz.
 
 Bulut tipleri listesi:
