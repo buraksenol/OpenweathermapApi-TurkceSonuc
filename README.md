@@ -1,6 +1,15 @@
 # [FLASK]OpenweathermapApi-TurkceSonuc
 
 Flask kullanarak oluşturulan web uygulaması eklendi: (Şehir ismine göre api üzerinde sonuç döndürüyor.)
+        - WebAPP[Flask] klasörünü indirip flask ve diğer paketlerin kurulduğu ortam içinde "python server.py" yazarak çalıştırabilirsiniz.
+        - Gereksinimler:
+            -Flask
+            -render_template
+            -request
+            -url_for
+            -json
+
+
 
 Python ile yazdığım bu fonksiyonla "Openweathermap Api" si kullanarak alınan sonuçları "Türkçeye" ve "Celcius" derece ye çeviriyoruz.
 
