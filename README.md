@@ -3,11 +3,11 @@
 Flask kullanarak oluşturulan web uygulaması eklendi: (Şehir ismine göre api üzerinde sonuç döndürüyor.)
         - WebAPP[Flask] klasörünü indirip flask ve diğer paketlerin kurulduğu ortam içinde "python server.py" yazarak çalıştırabilirsiniz.
         - Gereksinimler:
-            -Flask
-            -render_template
-            -request
-            -url_for
-            -json
+            (Flask),
+            (render_template),
+            (request),
+            (url_for),
+            (json)
 
 
 
