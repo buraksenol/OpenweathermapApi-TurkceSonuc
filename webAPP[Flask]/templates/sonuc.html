@@ -1,0 +1,23 @@
+{% extends "layouts.html" %}
+{% block content %}
+<h1>Hello World</h1>
+
+<form>
+  <div class="form-group">
+    <label for="exampleInputEmail1">Hava Durumu API</label>
+    <input type="text" class="form-control" name="data" placeholder="Şehir Girin">
+  </div>
+  <button type="submit" class="btn btn-primary">Çalıştır</button>
+</form>
+
+<table class="table">
+  {% for a,b in sonuc.items() %}
+          <tr>
+            <td>{{ a }}</td>
+            <td>{{ b }}</td>
+          </tr>
+  {% endfor %}
+
+</table>
+
+{% endblock content %}
