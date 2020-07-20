@@ -1,5 +1,7 @@
 # [FLASK]OpenweathermapApi-TurkceSonuc
 
+
+### Video Tutorial : https://www.youtube.com/watch?v=qacm4Kidk24
 Flask kullanarak oluşturulan web uygulaması eklendi: (Şehir ismine göre api üzerinde sonuç döndürüyor.)
         - WebAPP[Flask] klasörünü indirip flask ve diğer paketlerin kurulduğu ortam içinde "python server.py" yazarak çalıştırabilirsiniz.
         - Gereksinimler:
